@@ -26,6 +26,7 @@ public class Application {
 //		System.out.println(customerJson);
 //		Customer obj=mapper.readValue(customerJson, Customer.class);
 //		System.err.println(obj);
+		System.out.println("Testing for jenkins setup");
 		File file=new File("src/main/resources/customer.json");
 		ObjectMapper mapper=new ObjectMapper();
 		Customer[] readValue = mapper.readValue(file, Customer[].class);
